@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1708AA512860249E00A327B2 /* 睡不著.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708AA502860249E00A327B2 /* 睡不著.mp3 */; };
+		1708AA53286024A400A327B2 /* 一途.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708AA52286024A400A327B2 /* 一途.mp3 */; };
+		1708AA58286024B200A327B2 /* 電火王.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708AA54286024B100A327B2 /* 電火王.mp3 */; };
+		1708AA59286024B200A327B2 /* 閣愛妳一擺.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708AA55286024B200A327B2 /* 閣愛妳一擺.mp3 */; };
+		1708AA5A286024B200A327B2 /* Baby Cakes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708AA56286024B200A327B2 /* Baby Cakes.mp3 */; };
+		1708AA5B286024B200A327B2 /* 群青.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708AA57286024B200A327B2 /* 群青.mp3 */; };
 		17A8B56D285C0EAC00B0C658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8B56C285C0EAC00B0C658 /* AppDelegate.swift */; };
 		17A8B56F285C0EAC00B0C658 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8B56E285C0EAC00B0C658 /* SceneDelegate.swift */; };
-		17A8B571285C0EAC00B0C658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8B570285C0EAC00B0C658 /* ViewController.swift */; };
 		17A8B574285C0EAC00B0C658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A8B572285C0EAC00B0C658 /* Main.storyboard */; };
 		17A8B576285C0EAD00B0C658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A8B575285C0EAD00B0C658 /* Assets.xcassets */; };
 		17A8B579285C0EAD00B0C658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A8B577285C0EAD00B0C658 /* LaunchScreen.storyboard */; };
 		17A8B584285C0EAD00B0C658 /* musicPlayerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8B583285C0EAD00B0C658 /* musicPlayerAppTests.swift */; };
 		17A8B58E285C0EAD00B0C658 /* musicPlayerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8B58D285C0EAD00B0C658 /* musicPlayerAppUITests.swift */; };
 		17A8B590285C0EAD00B0C658 /* musicPlayerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8B58F285C0EAD00B0C658 /* musicPlayerAppUITestsLaunchTests.swift */; };
+		17A8B59D285C23EF00B0C658 /* MusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8B59C285C23EF00B0C658 /* MusicPlayerController.swift */; };
+		17A8B5A0285C246D00B0C658 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8B59F285C246D00B0C658 /* MusicModel.swift */; };
+		17A8B5A3285C2B8600B0C658 /* VolumeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8B5A2285C2B8600B0C658 /* VolumeSlider.swift */; };
+		17A8B5A5285C2C3500B0C658 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8B5A4285C2C3500B0C658 /* SongTableViewCell.swift */; };
+		17BDA154285C6356006EE177 /* SegmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BDA153285C6356006EE177 /* SegmentTableViewController.swift */; };
+		17BDA156285C64AD006EE177 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BDA155285C64AD006EE177 /* MusicPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1708AA502860249E00A327B2 /* 睡不著.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "睡不著.mp3"; sourceTree = "<group>"; };
+		1708AA52286024A400A327B2 /* 一途.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "一途.mp3"; sourceTree = "<group>"; };
+		1708AA54286024B100A327B2 /* 電火王.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "電火王.mp3"; sourceTree = "<group>"; };
+		1708AA55286024B200A327B2 /* 閣愛妳一擺.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "閣愛妳一擺.mp3"; sourceTree = "<group>"; };
+		1708AA56286024B200A327B2 /* Baby Cakes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Baby Cakes.mp3"; sourceTree = "<group>"; };
+		1708AA57286024B200A327B2 /* 群青.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "群青.mp3"; sourceTree = "<group>"; };
 		17A8B569285C0EAC00B0C658 /* musicPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A8B56C285C0EAC00B0C658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A8B56E285C0EAC00B0C658 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17A8B570285C0EAC00B0C658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17A8B573285C0EAC00B0C658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17A8B575285C0EAD00B0C658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17A8B578285C0EAD00B0C658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +65,12 @@
 		17A8B589285C0EAD00B0C658 /* musicPlayerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicPlayerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A8B58D285C0EAD00B0C658 /* musicPlayerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPlayerAppUITests.swift; sourceTree = "<group>"; };
 		17A8B58F285C0EAD00B0C658 /* musicPlayerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPlayerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17A8B59C285C23EF00B0C658 /* MusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerController.swift; sourceTree = "<group>"; };
+		17A8B59F285C246D00B0C658 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		17A8B5A2285C2B8600B0C658 /* VolumeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSlider.swift; sourceTree = "<group>"; };
+		17A8B5A4285C2C3500B0C658 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		17BDA153285C6356006EE177 /* SegmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTableViewController.swift; sourceTree = "<group>"; };
+		17BDA155285C64AD006EE177 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +98,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1708AA4F286023E300A327B2 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				1708AA502860249E00A327B2 /* 睡不著.mp3 */,
+				1708AA52286024A400A327B2 /* 一途.mp3 */,
+				1708AA57286024B200A327B2 /* 群青.mp3 */,
+				1708AA54286024B100A327B2 /* 電火王.mp3 */,
+				1708AA55286024B200A327B2 /* 閣愛妳一擺.mp3 */,
+				1708AA56286024B200A327B2 /* Baby Cakes.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		17A8B560285C0EAB00B0C658 = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +135,16 @@
 			isa = PBXGroup;
 			children = (
 				17A8B56C285C0EAC00B0C658 /* AppDelegate.swift */,
-				17A8B56E285C0EAC00B0C658 /* SceneDelegate.swift */,
-				17A8B570285C0EAC00B0C658 /* ViewController.swift */,
+				1708AA4F286023E300A327B2 /* Music */,
 				17A8B572285C0EAC00B0C658 /* Main.storyboard */,
 				17A8B575285C0EAD00B0C658 /* Assets.xcassets */,
 				17A8B577285C0EAD00B0C658 /* LaunchScreen.storyboard */,
 				17A8B57A285C0EAD00B0C658 /* Info.plist */,
+				17A8B56E285C0EAC00B0C658 /* SceneDelegate.swift */,
+				17A8B5A1285C2A6B00B0C658 /* Model */,
+				17A8B5A6285C5FCC00B0C658 /* View */,
+				17BDA157285C64C5006EE177 /* View Controller */,
+				17A8B59E285C241900B0C658 /* Utilities */,
 			);
 			path = musicPlayerApp;
 			sourceTree = "<group>";
@@ -125,6 +164,40 @@
 				17A8B58F285C0EAD00B0C658 /* musicPlayerAppUITestsLaunchTests.swift */,
 			);
 			path = musicPlayerAppUITests;
+			sourceTree = "<group>";
+		};
+		17A8B59E285C241900B0C658 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				17A8B59C285C23EF00B0C658 /* MusicPlayerController.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		17A8B5A1285C2A6B00B0C658 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17A8B59F285C246D00B0C658 /* MusicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17A8B5A6285C5FCC00B0C658 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17A8B5A2285C2B8600B0C658 /* VolumeSlider.swift */,
+				17A8B5A4285C2C3500B0C658 /* SongTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17BDA157285C64C5006EE177 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17BDA153285C6356006EE177 /* SegmentTableViewController.swift */,
+				17BDA155285C64AD006EE177 /* MusicPlayerViewController.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +304,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1708AA5B286024B200A327B2 /* 群青.mp3 in Resources */,
+				1708AA58286024B200A327B2 /* 電火王.mp3 in Resources */,
+				1708AA5A286024B200A327B2 /* Baby Cakes.mp3 in Resources */,
+				1708AA59286024B200A327B2 /* 閣愛妳一擺.mp3 in Resources */,
+				1708AA53286024A400A327B2 /* 一途.mp3 in Resources */,
 				17A8B579285C0EAD00B0C658 /* LaunchScreen.storyboard in Resources */,
 				17A8B576285C0EAD00B0C658 /* Assets.xcassets in Resources */,
+				1708AA512860249E00A327B2 /* 睡不著.mp3 in Resources */,
 				17A8B574285C0EAC00B0C658 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +337,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17A8B571285C0EAC00B0C658 /* ViewController.swift in Sources */,
+				17BDA154285C6356006EE177 /* SegmentTableViewController.swift in Sources */,
+				17A8B59D285C23EF00B0C658 /* MusicPlayerController.swift in Sources */,
+				17A8B5A3285C2B8600B0C658 /* VolumeSlider.swift in Sources */,
+				17A8B5A5285C2C3500B0C658 /* SongTableViewCell.swift in Sources */,
 				17A8B56D285C0EAC00B0C658 /* AppDelegate.swift in Sources */,
+				17A8B5A0285C246D00B0C658 /* MusicModel.swift in Sources */,
 				17A8B56F285C0EAC00B0C658 /* SceneDelegate.swift in Sources */,
+				17BDA156285C64AD006EE177 /* MusicPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
